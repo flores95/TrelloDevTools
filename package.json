@@ -1,12 +1,12 @@
 {
-  "name": "power-up",
+  "name": "trello-dev-tools",
   "version": "0.0.1",
-  "description": "A sample Trello Power-Up that can be used as a starting point for your own awesome Power-Up.",
+  "description": "Development Tool Intregration for teams using FogBugz, Kiln, Confluence and Slack.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "repository": "https://github.com/trello/glitch-trello-power-up",
+  "repository": "https://github.com/flores95/TrelloDevTools",
   "dependencies": {
     "compression": "^1.7.1",
     "cors": "^2.8.4",
@@ -19,7 +19,11 @@
   "keywords": [
     "power-ups",
     "trello",
-    "glitch"
+    "kiln",
+    "fogbugz",
+    "slack",
+    "confluence",
+    "development"
   ],
   "license": "MIT"
 }
