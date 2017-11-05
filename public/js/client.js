@@ -177,7 +177,7 @@ var boardButtonCallback = function(t){
         }
       },
       {
-        text: 'Open Board Bar',
+        text: 'Watch Branch',
         callback: function(t){
           return t.boardBar({
             url: './board-bar.html',
@@ -324,8 +324,8 @@ TrelloPowerUp.initialize({
       // or we can also have a button that is just a simple url
       // clicking it will open a new tab at the provided url
       icon: WHITE_ICON,
-      text: 'URL',
-      url: 'https://trello.com/inspiration',
+      text: 'Watch Branch',
+      url: 'https://kilnhg.com',
       target: 'Inspiring Boards' // optional target for above url
     }];
   },
